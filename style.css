@@ -1,0 +1,149 @@
+.nav-link:hover{
+     background-color: rgb(244, 244, 244);
+    transition: 0.8;
+    border-radius: 4px;
+}
+.navbar-nav{
+    position: relative;
+    left: 450px;
+    font-size: 15px;
+}
+li{
+    margin-left: 15px;
+    margin-right: 8px;
+}
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 20px 12% 0 49px;
+}
+h3{
+    font-size: 22px;
+    padding-top: 10px;
+}
+h1{
+    font-size: 34px;
+    line-height: 1.2;
+}
+p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+btn-box{
+    width: 345px;
+    display: flex;
+    gap: 5em;
+}
+.img-fluid{
+    width: 1500px;
+}
+.size{
+    text-align: center;
+    font: bold;
+    font-size: 50px;
+}
+  
+  blockquote {
+    color:white;
+    text-align:center;
+  }
+  table 			      { 
+    border-spacing: 1; 
+    border-collapse: collapse; 
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    max-width:800px; 
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    
+    *               { position:relative }
+    
+    td,th           { padding-left:8px}
+  
+    thead tr        { 
+      height:60px;
+      background:#FFED86;
+      font-size:16px;
+    }
+    
+    tbody tr        { height:48px; border-bottom:1px solid #E3F1D5 ;
+      &:last-child  { border:0; }
+    }
+    
+       td,th 					{ text-align:left;
+          &.l 					{ text-align:right }
+          &.c 					{ text-align:center }
+          &.r 					{ text-align:center }
+      }
+  }
+  .progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+body {
+    background: linear-gradient(to right, #716f71, #fffcdca8)
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+i{
+    size: 20px;
+    padding: 10px;
+}
+.bg-secondary{
+    border-radius: 5px;
+}
+#border{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#border-1{
+    border: 2px solid black;
+    border-radius: 10px;
+}
